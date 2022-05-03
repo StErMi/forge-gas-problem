@@ -5,14 +5,14 @@ import "forge-std/Test.sol";
 
 import "src/Contract.sol";
 
-contract TestContract is Test {
+contract TestContract2 is Test {
     Contract c;
 
     function setUp() public {
         c = new Contract();
     }
 
-    function test1() public {
-        c.f1(1);
+    function test2() public {
+        c.f2(1);
     }
 }
